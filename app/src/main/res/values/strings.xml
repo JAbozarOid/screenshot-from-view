@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ScreenShot</string>
+    <string name="my_ScreenShoot">screenshot</string>
 </resources>
