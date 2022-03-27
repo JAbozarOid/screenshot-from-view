@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="background" format="reference" />
+    <attr name="imageType" format="reference" />
+    <attr name="imageState" format="reference" />
+    <attr name="imageIcon" format="reference" />
+    <attr name="defaultIconColor" format="color" />
+
+    <attr name="inputType" format="enum">
+        <enum name="none" value="0" />
+        <enum name="email" value="1" />
+        <enum name="password" value="2" />
+        <enum name="text" value="3" />
+        <enum name="search" value="4" />
+        <enum name="empty" value="5" />
+        <enum name="textView" value="6" />
+        <enum name="number" value="7" />
+    </attr>
+
+    <attr name="inputTypeAlert" format="enum">
+        <enum name="price" value="0" />
+        <enum name="percentage" value="1" />
+        <enum name="text" value="2" />
+        <enum name="textView" value="3" />
+        <enum name="image" value="4" />
+        <enum name="switchText" value="5" />
+        <enum name="textWithHint" value="6" />
+        <enum name="note" value="7" />
+        <enum name="imageHint" value="8" />
+        <enum name="threeOptions" value="9" />
+    </attr>
+    <attr name="hintText" format="string" />
+    <attr name="hintViewText" format="string" />
+    <attr name="textInput" format="string" />
+    <attr name="firstSwitchTxt" format="string" />
+    <attr name="secondSwitchTxt" format="string" />
+    <attr name="thirdSwitchTxt" format="string" />
+    <attr name="firstSwitchHint" format="string" />
+    <attr name="secondSwitchHint" format="string" />
+
+    <declare-styleable name="AuthCustomInput">
+        <attr name="background" />
+        <attr name="imageType" />
+        <attr name="imageState" />
+        <attr name="defaultIconColor" />
+        <attr name="inputType" />
+        <attr name="hintText" />
+        <attr name="textInput" />
+    </declare-styleable>
+
+    <declare-styleable name="AlertCustomInput">
+        <attr name="background" />
+        <attr name="imageType" />
+        <attr name="imageState" />
+        <attr name="defaultIconColor" />
+        <attr name="inputTypeAlert" />
+        <attr name="hintText" />
+        <attr name="imageIcon" />
+        <attr name="textInput" />
+        <attr name="hintViewText" />
+        <attr name="firstSwitchTxt" />
+        <attr name="secondSwitchTxt" />
+        <attr name="firstSwitchHint" />
+        <attr name="secondSwitchHint" />
+        <attr name="thirdSwitchTxt" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomButton">
+        <attr name="text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomDetailsItem">
+        <attr name="textTitle" format="string" />
+        <attr name="textDesc" format="string" />
+        <attr name="textTitleColor" format="color" />
+        <attr name="textDescColor" format="color" />
+        <attr name="descMarginTop" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="WatchListCustomView">
+        <attr name="imageSelected" format="reference" />
+        <attr name="imageDefault" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AlertIconCustomView">
+        <attr name="alarmClicked" format="reference" />
+        <attr name="alarmBGClicked" format="reference" />
+        <attr name="alarmDefault" format="reference" />
+        <attr name="alarmBGDefault" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SecureCustomView">
+        <attr name="secureDefaultIcon" format="reference" />
+        <attr name="secureClickedIcon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RepeatIconCustomView">
+        <attr name="repeatIconDefault" format="reference" />
+        <attr name="repeatIconClicked" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AlertNoteCustomView">
+        <attr name="alertNoteClicked" format="reference" />
+        <attr name="alertNoteClickedBg" format="reference" />
+        <attr name="alertNoteDefault" format="reference" />
+        <attr name="alertNoteDefaultBg" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressCircleLayout">
+        <attr name="startValue" format="integer" />
+        <attr name="currentValue" format="integer" />
+        <attr name="endValue" format="integer" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="backgroundCircleColor" format="color" />
+        <attr name="foregroundCircleColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="animateOnDisplay" format="boolean" />
+        <attr name="metricsGravity" format="enum">
+            <enum name="right" value="0" />
+            <enum name="bottom" value="1" />
+        </attr>
+        <attr name="metrics" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="BarChart">
+        <attr name="radius" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="AppWidgetAttrs">
+        <attr name="appWidgetPadding" format="dimension" />
+        <attr name="appWidgetInnerRadius" format="dimension" />
+        <attr name="appWidgetRadius" format="dimension" />
+    </declare-styleable>
+</resources>
